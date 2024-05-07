@@ -1,0 +1,21 @@
+{
+  "name": "mtndew",
+  "displayName": "mtndew",
+  "description": "mnt dew themes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mnt Dew Code Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/code-red.json"
+      }
+    ]
+  }
+}
