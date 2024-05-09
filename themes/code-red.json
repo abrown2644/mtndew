@@ -62,7 +62,7 @@
 		"selection.background": "#000000",
 
 		// Editor Section
-		"editor.background": "#101116",
+		"editor.background": "#161015",
 		"editor.foreground": "#ff0055",
 		"editor.lineHighlightBackground": "#030202",
 		"editor.lineHighlightBorder": "#030202",
@@ -72,11 +72,12 @@
 		"editor.hoverHighlightBackground": "#ff00552c",
 		"editorBracketMatch.background": "#ff005533",
 		"editorBracketMatch.border": "#ff004c",
+
 		"editorCursor.foreground": "#00ffc8",
 		"editorWarning.foreground": "#009550",
 		"editor.findMatchHighlightBackground": "#283593",
-		"editor.wordHighlightBackground": "#42557B",
-		"editor.wordHighlightStrongBackground": "#42557B",
+		 "editor.wordHighlightBackground": "#ff005533",
+		"editor.wordHighlightStrongBackground": "#ff005533",
 		"editorGroup.background": "#1B2738",
 		"editorGroup.border": "#ff00552a",
 		"editorGroupHeader.tabsBackground": "#101116",
@@ -170,7 +171,7 @@
 		"sideBar.foreground": "#be4e74",
         "sideBarTitle.foreground": "#bbbbbb",
         "welcomePage.buttonBackground": "#ff005527",
-        "welcomePage.buttonHoverBackground": "#ff005573",
+        "welcomePage.buttonHoverBackground": "#ff005573"
 	},
 	"tokenColors": [
 		{
@@ -187,7 +188,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#6766b3"
+				"foreground": "#885B5B"
 			}
 		},
 		{
@@ -197,7 +198,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#FB4109"
 			}
 		},
 		{
@@ -227,8 +228,17 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#d57bff"
+				"foreground": "#ff5680"
 			}
+		},
+		{
+			"name":"Regular Text",
+			"scope": [
+				"meta.tag",
+				"text.svelte",
+				"source.svelte"
+			],
+			"settings":{"foreground":"#FFB485"}
 		},
 		{
 			"name": "Operator, Misc",
@@ -236,29 +246,46 @@
 				"keyword.control",
 				"constant.other.color",
 				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#00b0ff"
+				"foreground": "#FFA3A3"
 			}
 		},
 		{
-			"name": "Tag",
+			"name": "HTML Tag Names",
 			"scope": [
 				"entity.name.tag",
+				"support.class",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#ff5680"
+				"foreground": "#E61046"
+			}
+		},
+		{
+			"name": "HTML Tag Open/Close",
+			"scope": [
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#E61046"
+			}
+		},
+		{
+			"name": "HTML Attributes",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#FF5079"
 			}
 		},
 		{
@@ -280,7 +307,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#b4baff"
+				"foreground": "#007448"
 			}
 		},
 		{
@@ -304,7 +331,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#fffc58"
+				"foreground": "#00FF9C"
 			}
 		},
 		{
@@ -330,7 +357,7 @@
 			],
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#76c1ff"
+				"foreground": "#F77E04"
 			}
 		},
 		{
@@ -338,7 +365,6 @@
 			"scope": [
 				"entity.name",
 				"support.type",
-				"support.class",
 				"support.orther.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
@@ -346,7 +372,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#00FF9C"
+				"foreground": "#FF7300"
 			}
 		},
 		{
@@ -414,15 +440,6 @@
 			}
 		},
 		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#ee6dff"
-			}
-		},
-		{
 			"name": "HTML Attributes",
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
@@ -439,7 +456,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#00FF9C"
+				"foreground": "#F77E04"
 			}
 		},
 		{
