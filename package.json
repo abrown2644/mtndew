@@ -15,6 +15,11 @@
         "label": "Mountain Dew Code Red",
         "uiTheme": "vs-dark",
         "path": "./themes/code-red.json"
+      },
+      {
+        "label": "Mountain Dew Code Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/code-blue.json"
       }
     ]
   }
