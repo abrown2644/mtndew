@@ -1,0 +1,7 @@
+id = "mountain-dew-code-red"
+name = "Mountain Dew Code Red"
+version = "0.0.1"
+schema_version = 1
+authors = ["Andrew Brown"]
+description = "A cyberpunk dark theme: near-black red backgrounds, soft desaturated red text, with blue/yellow/green accents for syntax."
+repository = "https://github.com/abrown/mtndew"
